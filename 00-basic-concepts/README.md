@@ -71,13 +71,19 @@ To build and deploy AI applications effectively, we'll cover the following tools
 
 ## Setting Up Your Development Environment
 
-Before we dive into coding, it's essential to have a properly configured environment.
 
-- **Installing Python 3.x**: Setting up the latest version of Python.
-- **Setting Up VSCode**: Installing extensions for Python development.
-- **Docker Installation**: Getting Docker up and running on your system.
-- **Creating a DevContainer**: Setting up a containerized development environment.
+<!--  -->
 
+
+Before we dive into coding, it's essential to have a properly configured environment.  
+
+- **Installing Python 3.x**: Ensure you set up the latest version of Python to take advantage of the newest features and improvements.  
+- **Setting Up VSCode**: Install Visual Studio Code and add essential extensions like the Python extension, Pylance, and Jupyter for an optimized Python development experience.
+- **Google Colab for Python Practice**: While configuring the local environment is crucial, we will extensively use Google Colab for running and practicing Python code. Google Colab provides an accessible, cloud-based environment with pre-installed libraries, GPUs, and seamless collaboration, making it an excellent choice for experimenting with Python code."  
+- **Docker Installation**: Get Docker up and running on your system to facilitate containerized development, ensuring a consistent environment across all machines.  
+- **Creating a DevContainer**: Set up a containerized development environment for isolated and reproducible workflows, enhancing collaboration in team projects.  
+
+<!--  -->
 ---
 
 ## Conclusion and Next Steps

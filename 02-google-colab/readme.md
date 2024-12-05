@@ -66,11 +66,29 @@ Colab comes pre-installed with many libraries, but you may need additional tools
 !pip install matplotlib seaborn           # For data visualization
 ```
 
-#### Step 3: Access GPU/TPU Resources
+
+#### Step 3: Explanation of Commands
+<!--  -->
+In Google Colab, the `!` is used to execute **shell commands** directly from a Python environment. It allows you to interact with the underlying operating system, similar to running commands in a terminal.
+
+1. **`!pip list`**:
+   - Lists all the Python libraries currently installed in the environment along with their versions.
+   - Useful for checking the dependencies available in the environment.
+
+2. **`!python --version`**:
+   - Displays the version of Python installed in the environment.
+   - Helps ensure compatibility with your code or specific libraries.
+
+### Why `!` is Used:
+- Google Colab primarily runs Python code.
+- The `!` tells Colab to pass the command to the shell/terminal instead of treating it as Python code.
+- Without `!`, Colab would try to interpret `pip list` or `python --version` as Python functions, which would result in an error.
+<!--  -->
+#### Step 4: Access GPU/TPU Resources
 - Navigate to `Runtime > Change runtime type` in the Colab menu.
 - Select **GPU** or **TPU** under the "Hardware accelerator" option.
 
-#### Step 4: Explore AI Libraries
+#### Step 5: Explore AI Libraries
 Start by experimenting with pre-built examples and workflows. For instance:
 
 **Example: Load a Pre-trained NLP Model**

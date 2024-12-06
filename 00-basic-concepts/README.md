@@ -95,11 +95,8 @@ By the end of this course, you'll be proficient in:
 - Utilizing AI tools to enhance your programming workflow.
 - Understanding and applying GenAI and prompt engineering principles.
 - Using essential development tools to create, deploy, and collaborate on AI projects.
+- **Ensure Your Environment is Ready**: Follow the setup instructions to prepare your computer.
 
-**Next Steps**:
 
-1. **Ensure Your Environment is Ready**: Follow the setup instructions to prepare your computer.
-2. **Review Course Materials**: Familiarize yourself with the syllabus and resources.
-3. **Engage with the Community**: Join our forum or chat to collaborate with peers.
 
 ---

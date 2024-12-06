@@ -81,6 +81,7 @@ Before we dive into coding, it's essential to have a properly configured environ
 - **Setting Up VSCode**: Install Visual Studio Code and add essential extensions like the Python extension, Pylance, and Jupyter for an optimized Python development experience.
 - **Google Colab for Python Practice**: While configuring the local environment is crucial, we will extensively use Google Colab for running and practicing Python code. Google Colab provides an accessible, cloud-based environment with pre-installed libraries, GPUs, and seamless collaboration, making it an excellent choice for experimenting with Python code."  
 - **Docker Installation**: Get Docker up and running on your system to facilitate containerized development, ensuring a consistent environment across all machines.  
+Docker uses Linux OS because it relies on Linux kernel features such as cgroups (control groups) for resource isolation and namespaces for containerization. These kernel-level features enable lightweight, efficient(CPU, memory, etc.), and secure isolation of applications, making Linux an ideal choice for Docker's container runtime.
 - **Creating a DevContainer**: Set up a containerized development environment for isolated and reproducible workflows, enhancing collaboration in team projects.  
 
 <!--  -->

@@ -145,4 +145,4 @@ A Pull Request is a polite way to ask others to review and accept your changes.
 
 ---
 
-**You’ve got the basics!** Now you know how to set up GitHub Desktop, clone and create repositories, make commits, push changes, and collaborate with others. With practice, using Git and GitHub will become second nature. Happy coding!
+**You’ve got the basics!** Now you know how to set up GitHub Desktop, clone and create repositories, make commits, push changes, and collaborate with others. With practice, using Git and GitHub will become second nature. 

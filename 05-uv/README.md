@@ -33,7 +33,7 @@ uv init project1
 ### **Command:**
 
 ```bash
-uv run hellp.py
+uv run hello.py
 ```
 
 - Executes the Python script named `hellp.py` (typo or example naming).

@@ -11,13 +11,13 @@
 ### What is “Meta-Prompting”?
 - **Meta-prompting** is when you ask ChatGPT to help you **create** or **refine** a prompt.
 - It’s like saying:  
-  > “ChatGPT, please **write the instructions** that I can give to ChatGPT (or another AI) to get a specific type of answer.”
+  > “ChatGPT, **write the instructions** that I can give to ChatGPT (or another AI) to get a specific type of answer.”
 
 #### Simple Python Example
 Imagine you want to teach a beginner how to **print numbers** from 1 to 5 using Python. 
 
 1. **Meta-prompt** to ChatGPT:
-   > "ChatGPT, can you help me create a prompt that instructs the AI to generate a Python script that prints numbers from 1 to 5?"
+   > "ChatGPT, create a prompt that instructs the AI to generate a Python script that prints numbers from 1 to 5"
 
 2. **ChatGPT’s Possible Response** (Sample):
    > “Use the following prompt:  

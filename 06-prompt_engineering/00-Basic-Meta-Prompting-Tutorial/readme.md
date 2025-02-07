@@ -104,7 +104,7 @@ Suppose you want a prompt that instructs the AI to create a **Python function** 
 
 ## 7. Tips & Pitfalls
 
-1. **Be Clear and Specific**: Vague requests produce vague prompts.  
+1. **Be Clear and Specific**: unclear requests produce unclear prompts.  
 2. **Iterate Often**: Keep refining your meta-prompt.  
 3. **Avoid Over-Complexity**: Too many instructions can confuse the model.  
 4. **Keep It Organized**: Use bullet points or lists for clarity.
@@ -146,7 +146,7 @@ Suppose you want a prompt that instructs the AI to create a **Python function** 
 - **Identify the Context**:  
   Example: “I need a coding exercise for beginners in Python,” or “I want a prompt to teach Python dictionaries.”  
 - **Pinpoint the Format/Scope**:  
-  Do you need an open-ended question, a multi-step coding project, or a short script?  
+  Do you need a multi-step coding project, or a short script?  
 - **Determine the Tone**:  
   Formal, casual, technical, or fun?
 
@@ -158,8 +158,6 @@ Suppose you want a prompt that instructs the AI to create a **Python function** 
    - Example Query to ChatGPT:  
      > “I want a detailed prompt that makes the AI generate Python code to read a file and count how many times a specific word appears.”
 
-2. **Check the Output**  
-   - ChatGPT might produce a straightforward single-paragraph prompt.
 
 ---
 
@@ -229,7 +227,7 @@ Suppose you want a prompt that instructs the AI to create a **Python function** 
 3. **Include Examples**  
    - If you have a particular format, show ChatGPT an example.  
 4. **Balance Creativity and Constraints**  
-   - Too many rules might stifle creativity.  
+   - Too many rules might suppress creativity.  
 5. **Document Your Best Prompts**  
    - Save them for future use.
 
@@ -251,11 +249,6 @@ Suppose you want a prompt that instructs the AI to create a **Python function** 
 
 Using ChatGPT to **create** and **refine** prompts is called **meta-prompting**. It can significantly **improve the clarity and usefulness** of any code or explanation you generate—especially for teaching or learning Python.
 
-**Key Takeaways**:
-- Start with a clear objective.  
-- Use ChatGPT iteratively: generate, refine, test.  
-- Incorporate constraints, examples, and style guidelines.  
-- Don’t hesitate to ask ChatGPT to critique its own suggestions.
 
 ---
 
@@ -280,7 +273,7 @@ Below, we’ll blend meta-prompting with **advanced prompting techniques**. Thes
 
 ### 2.2 Zero-Shot Chain-of-Thought
 - **Definition**: Asking the model to provide its reasoning steps without giving any example solutions first.  
-- **Why It Helps**: Good when you want spontaneous reasoning from scratch.
+- **Why It Helps**: Good when you want natural reasoning from scratch.
 
 ### 2.3 Self-Consistency
 - **Definition**: The AI generates multiple reasoning paths, then compares them to choose the best final answer.  

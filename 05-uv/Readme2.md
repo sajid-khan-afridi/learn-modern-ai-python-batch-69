@@ -70,17 +70,7 @@ UV tries to **combine** the best parts of these tools into **one** faster system
 
    - UV **automatically** manages virtual environments. You don’t have to install a separate tool like virtualenv.
 
-3. **Compatibility:**
-
-   - UV can **still use** your existing `requirements.txt`. So you won’t have to redo your whole setup.
-
-4. **Better Reproducibility:**
-   - UV uses **lock files** to ensure everyone on your team uses **exactly the same** package versions.
-   - PIP + virtualenv only has `requirements.txt`, which is sometimes **less precise** about version pins.
-
-   ---
-
-   ## 8. Conclusion
+## 5. Conclusion
 
 **UV** is a **new-generation Python package manager** that stands out because it’s:
 

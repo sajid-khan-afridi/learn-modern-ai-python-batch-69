@@ -99,12 +99,11 @@ uv run hello.py
 ### **Command:**
 
 ```bash
-uv env
+uv venv
 ```
 
 - Shows information about the current UV environment. This might include:
   - The path to the environment.
-  - Installed packages.
   - Active Python version.
 
 > **.python-version & TOML**

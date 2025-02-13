@@ -5,7 +5,17 @@ This technique involves asking the AI to review and improve an existing prompt. 
 - **Example Workflow:**
   ```markdown
   Initial Prompt: “Write a cold email for an AI product.”
-  Refined Prompt: “Write an engaging cold email for an innovative AI product, highlighting its unique features and creating a sense of urgency for a limited-time offer.”
+  Reverse Meta Prompt: "review and improve this prompt: Write a cold email for an AI product."
+  **Improved Prompt:**  
+  "Write a compelling **cold email** to introduce an **AI product** to potential customers. The email should:  
+  - Have an **attention-grabbing subject line**  
+  - Start with a **personalized and engaging opening**  
+  - Clearly explain the **AI product’s value proposition** and how it solves a specific problem  
+  - Use **concise, persuasive language** to maintain interest  
+  - Include a **strong call-to-action (CTA)** encouraging the recipient to book a demo, sign up, or reply  
+  - Be **brief, professional, and tailored** for a cold outreach audience "
+
+  Make it sound natural, avoid jargon, and ensure it feels **genuine and non-spammy**.
   ```
 
 ### Using Personas

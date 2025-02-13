@@ -5,8 +5,10 @@ This technique involves asking the AI to review and improve an existing prompt. 
 - **Example Workflow:**
   ```markdown
   Initial Prompt: “Write a cold email for an AI product.”
+
   Reverse Meta Prompt: "review and improve this prompt: Write a cold email for an AI product."
-  **Improved Prompt:**  
+
+  Improved Prompt:  
   "Write a compelling **cold email** to introduce an **AI product** to potential customers. The email should:  
   - Have an **attention-grabbing subject line**  
   - Start with a **personalized and engaging opening**  

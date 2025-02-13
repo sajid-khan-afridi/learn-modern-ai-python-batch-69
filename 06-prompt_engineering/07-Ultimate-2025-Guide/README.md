@@ -15,11 +15,15 @@ AI models convert words into numerical data, analyzing patterns to generate resp
 
 2. **Be Descriptive:**  
    - **Rule:** Provide detailed information about the topic, tone, and audience.  
-   - **Example:** “Write a 1,000-word blog post about the economic situation of Kuwait from 1961 to 1967 aimed at beginners in a conversational tone.”
+   - **Example:**
+   - **Initial Prompt:** write a blog post about the economics of the Middle east in 1960s.
+   - **Better Prompt:** “Write a 1,000-word blog post about the economic situation of Kuwait from 1961 to 1967 aimed at beginners in a conversational tone.”
 
 3. **Provide Context and Specifics:**  
    - **Rule:** Specify the audience, tone, and structure to avoid generic responses.  
-   - **Example:** “Write a 1,000-word blog post about digital social media marketing for beginners using a conversational tone, targeting a general audience, and dividing it into five parts, each with a short list.”
+   - **Example:**
+   -**Initial Prompt:** "write a blog post about social media marketing"
+   - **Better Prompt:** “Write a 1,000-word blog post about digital social media marketing for beginners using a conversational tone, targeting a general audience, and dividing it into five parts, each with a short list.”
 
 4. **Assign a Role:**  
    - **Rule:** Instruct the AI to act as a specific professional for more accurate and relevant responses.  

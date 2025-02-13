@@ -123,15 +123,7 @@ The improved prompt should be concise, structured, and optimized to yield better
 3. **Iterate**: Test the improved prompt and repeat the process if necessary.  
 
 
-### Multi-Agent AI Prompts
-For complex tasks, you might need the AI to simulate multiple roles or perspectives. This involves designing prompts where different “agents” handle specific aspects of the task.
-- **Example:**
-  For example, if you're planning a small community event:
-  ```markdown
-  Agent 1: As an event coordinator, list all the steps required for setting up the event.
-  Agent 2: As a creative consultant, suggest a fun theme and engaging activities.
-  Agent 3: As a budget advisor, recommend cost-saving strategies for the event.
-  ```
+
 
 
 

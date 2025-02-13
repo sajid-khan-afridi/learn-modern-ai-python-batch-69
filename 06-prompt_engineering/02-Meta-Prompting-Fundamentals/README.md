@@ -12,8 +12,16 @@ Meta-prompting involves using the AI’s own capabilities to generate or refine 
 
 ### Detailed Example
 ```markdown
-User: “Help me create a prompt for a poem about space, in the style of Dr. Seuss.”
-AI: “Compose a whimsical, rhyming poem that personifies planets and stars, using playful language and absurd imagery to captivate a young audience.”
+User: “Create a prompt for a 5-day meal plan for a student on a budget. Include vegetarian options, quick recipes, and grocery lists.”
+AI: “ Generate a **5-day budget-friendly meal plan** for a student. The plan should include:  
+
+- **Breakfast, lunch, and dinner** for each day  
+- **Vegetarian options** at least twice a day  
+- **Quick and easy recipes** that take **30 minutes or less** to prepare  
+- A **grocery list** categorized by pantry staples, fresh produce, dairy, and proteins  
+- Meals that use **affordable, widely available ingredients** with minimal food waste  
+
+Focus on **healthy, balanced, and filling** meals suitable for a student’s busy schedule!"”
 ```
 
 

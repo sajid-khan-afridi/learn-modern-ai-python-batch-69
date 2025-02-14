@@ -1085,31 +1085,6 @@ If Python 3.12 is not already installed, uv will download and install it. You ca
 
 ---
 
-### 9. Managing CLI Tools
-
-**Command:** `uv tool`
-
-uv allows you to install and manage command-line tools provided by Python packages.
-
-**Examples:**
-- **Installing a tool (e.g., from the Hugging Face Hub):**
-  ```bash
-  uv tool install huggingface_hub
-  ```
-- **Listing installed tools:**
-  ```bash
-  uv tool list
-  ```
-- **Running a tool directly:**
-  ```bash
-  uv tool run huggingface_hub
-  ```
-
-*What happens:*  
-uv sets up the tool in an isolated environment and links its executable so you can run it from your command line.
-
----
-
 ## Summary
 
 **uv** simplifies your Python development workflow by combining multiple tools into one fast, efficient command-line utility. Its key benefits include:

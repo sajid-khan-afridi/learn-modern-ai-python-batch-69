@@ -658,8 +658,8 @@ uv version
 uv init --package project1
 ```
 
-- Initializes a **packaged** project called **project2** **with** a `src/` folder structure.
-- Inside `project11`, you’ll likely see:
+- Initializes a **packaged** project called **project1** **with** a `src/` folder structure.
+- Inside `project1`, you’ll likely see:
   ```
   project1/
     └─ src/

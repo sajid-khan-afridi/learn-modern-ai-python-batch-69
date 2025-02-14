@@ -659,7 +659,7 @@ uv init --package project1
 ```
 
 - Initializes a **packaged** project called **project2** **with** a `src/` folder structure.
-- Inside `project2`, you’ll likely see:
+- Inside `project1`, you’ll likely see:
   ```
   project1/
     └─ src/
@@ -681,14 +681,14 @@ uv init --package project1
 #### **Command:**
 
 ```bash
-uv init project1
+uv init project2
 ```
 
-- Creates a new project directory called **project1** with essential files, but **does not** create a `src/` folder by default.
-- Typical **UV** initialization places project settings (like the `.toml` file) inside **project1**, but keeps the project structure minimal.
+- Creates a new project directory called **project2** with essential files, but **does not** create a `src/` folder by default.
+- Typical **UV** initialization places project settings (like the `.toml` file) inside **project2**, but keeps the project structure minimal.
 
 > **Why No `src/` Folder?**  
-> Many modern Python packaging standards (like [PyPA recommendations](https://packaging.python.org/en/latest/tutorials/packaging-projects/)) prefer a `src/` folder. However, with UV’s default `init`, you can still have a functional project without it. It’s purely a layout choice.
+> Many modern Python packaging standards (like [PyPi recommendations](https://packaging.python.org/en/latest/tutorials/packaging-projects/)) prefer a `src/` folder. However, with UV’s default `init`, you can still have a functional project without it. It’s purely a layout choice.
 
 ---
 
@@ -697,10 +697,10 @@ uv init project1
 #### **Command:**
 
 ```bash
-uv run project1
+uv run project2
 ```
 
-- Executes the Python script named `hellp.py` (typo or example naming).
+- Executes the Python script named `hello.py` (typo or example naming).
 - **UV** automatically sets up and activates the virtual environment in the background.
 - No extra `source venv/bin/activate` step is required.
 
@@ -714,7 +714,7 @@ uv run project1
 #### **Command:**
 
 ```bash
-uv env
+uv venv
 ```
 
 - Shows information about the current UV environment. This might include:

@@ -79,6 +79,7 @@ GitHub Desktop now shows your new local repository’s status.
 
 - add the .gitignore file
 - add .env file
+- adding and removing repository via github desktop
 
 ---
 

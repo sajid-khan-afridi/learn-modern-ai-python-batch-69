@@ -96,26 +96,94 @@ GitHub Desktop now shows your new local repository’s status.
 
 **Option 2: Using the Command Line**
 
-1. Initialize the repository:
+
+Below is an organized guide that combines both setting up a new repository and updating it after adding more content.
+
+---
+
+## 1. Creating a New Repository on GitHub
+
+Follow these steps to create your repository and push the initial commit:
+
+1. **Create a README file:**
+
    ```bash
-   cd path/to/your/project
+   echo "# new1" >> README.md
+   ```
+
+2. **Initialize a Git repository:**
+
+   ```bash
    git init
    ```
-2. Stage and commit your files:
+
+3. **Stage the README file:**
+
    ```bash
-   git add .
-   git commit -m "Initial commit"
+   git add README.md
    ```
-3. Create a new repository on GitHub and copy its URL.
-4. Link your local repo to GitHub:
+
+4. **Commit the file:**
+
    ```bash
-   git remote add origin <repository_url>
+   git commit -m "first commit"
    ```
-5. Set the default branch (if needed) and push:
+
+5. **Rename the default branch to `main`:**
+
    ```bash
    git branch -M main
+   ```
+
+6. **Add your GitHub repository as a remote:**
+
+   ```bash
+   git remote add origin https://github.com/sajid-khan-afridi/new1.git
+   ```
+
+7. **Push your commit to GitHub:**
+
+   ```bash
    git push -u origin main
    ```
+
+---
+
+## 2. Updating the Repository with Additional Content
+
+After adding more content to your project, follow these steps to update your GitHub repository:
+
+1. **Check the status (optional):**
+
+   ```bash
+   git status
+   ```
+
+   This command shows which files have been modified.
+
+2. **Stage all changes:**
+
+   ```bash
+   git add .
+   ```
+
+   If you prefer to stage specific files, replace `.` with the filename.
+
+3. **Commit your changes:**
+
+   ```bash
+   git commit -m "Added more content"
+   ```
+
+   Adjust the commit message as needed to reflect your changes.
+
+4. **Push the changes to GitHub:**
+
+   ```bash
+   git push
+   ```
+
+
 
 ---
 

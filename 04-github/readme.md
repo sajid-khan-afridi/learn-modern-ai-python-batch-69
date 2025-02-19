@@ -101,7 +101,7 @@ Below is an organized guide that combines both setting up a new repository and u
 
 ---
 
-## 1. Creating a New Repository on GitHub
+##### 1. Creating a New Repository on GitHub
 
 Follow these steps to create your repository and push the initial commit:
 
@@ -149,7 +149,7 @@ Follow these steps to create your repository and push the initial commit:
 
 ---
 
-## 2. Updating the Repository with Additional Content
+##### 2. Updating the Repository with Additional Content
 
 After adding more content to your project, follow these steps to update your GitHub repository:
 

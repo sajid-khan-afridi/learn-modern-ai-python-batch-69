@@ -4,7 +4,7 @@
 ---
 
 #### 1. **What is Git?**  
-Git is a distributed version control system that helps developers track changes in their code, collaborate efficiently, and maintain a detailed history of project modifications.
+Git is a distributed version control system that tracks changes in code. Every developer gets a complete copy of the project’s history, making it easier to work together, merge updates, and revert mistakes when needed.
 
 #### 2. **What is GitHub Desktop?**  
 GitHub Desktop is a graphical tool that simplifies Git workflows. It provides a user-friendly interface for creating, managing, and syncing repositories with GitHub, reducing the need for command-line operations.

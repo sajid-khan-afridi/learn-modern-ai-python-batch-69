@@ -16,8 +16,19 @@ This guide explains how to install Streamlit via the uv package manager, run you
 
 Before running your app, you need to install Streamlit. Use the following command to install Streamlit via uv:
 
+### Installing uv project
+
 ```bash
-# Essential command: Installs the Streamlit package using uv
+uv init --package project
+```
+### Run the project
+
+```bash
+uv run project
+```
+
+### Essential command: Installs the Streamlit package using uv
+```bash
 uv pip install streamlit
 ```
 

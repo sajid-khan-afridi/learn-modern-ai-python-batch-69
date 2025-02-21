@@ -6,6 +6,10 @@
 
 Git is a distributed version control system that tracks changes in code. Every developer gets a complete copy of the project’s history, making it easier to work together, merge updates, and revert mistakes when needed.
 
+#### 2. **What is GitHub?**
+
+GitHub is a web-based platform built around Git. It allows developers to host, share, and collaborate on code repositories online. In addition to version control, GitHub provides features such as issue tracking, pull requests, and code reviews, which streamline collaboration and project management.
+
 #### 2. **What is GitHub Desktop?**
 
 GitHub Desktop is a graphical tool that simplifies Git workflows. It provides a user-friendly interface for creating, managing, and syncing repositories with GitHub, reducing the need for command-line operations.
